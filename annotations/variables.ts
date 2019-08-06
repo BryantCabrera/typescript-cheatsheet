@@ -29,3 +29,10 @@ let point: { x: number; y: number; } = {
   x: 10,
   y: 20
 }
+
+// Function
+  // if you get an underline on a variable in an argument, it is because it is being coerced into type any and would prefer a specific annotation
+  // every part up to void is part of the annotation
+const logNumber: (i: number) => void = (i: number) => {
+  console.log(i);
+};
