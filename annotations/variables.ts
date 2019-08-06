@@ -14,3 +14,18 @@ let now: Date = new Date();
 let colors: string[] = ['red', 'green', 'blue'];
 let myNumbers: number[] = [1, 2, 3];
 let truths: boolean[] = [true, true, false];
+
+// Classes
+class Car {
+
+}
+// capital name will refer to that class, whereas lowercase refers to the instance of that class
+let car: Car = new Car();
+
+// Object Literal
+  // When annotating property types, separate them with a ;
+  // Don’t have to put a; after the last property annotation, but you can if you want to
+let point: { x: number; y: number; } = {
+  x: 10,
+  y: 20
+}
